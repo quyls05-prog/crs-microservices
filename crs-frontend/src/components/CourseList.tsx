@@ -1,5 +1,5 @@
 // path: crs-frontend/src/components/CourseList.tsx
-// purpose: hien thi danh sach mon hoc, xu ly du 4 trang thai Loading/Success/Empty/Error
+// purpose: hien thi danh sach mon hoc, ho tro nut Sua/Xoa/Dang ky linh hoat tuy theo props truyen vao
 
 import type { Course } from '../types/course';
 import type { LoadState } from '../api/useCourses';
@@ -9,6 +9,10 @@ interface CourseListProps {
   state: LoadState;
   errorMessage: string;
   onRetry: () => void;
+  onEdit?: (course: Course) => void;
+  onDelete?: (course: Course) => void;
+  onRegister?: (course: Course) => void;
+  registeringId?: number | null; // id mon dang trong qua trinh goi API dang ky, de disable rieng nut do
 }
 
 export default function CourseList({
@@ -16,10 +20,12 @@ export default function CourseList({
   state,
   errorMessage,
   onRetry,
+  onEdit,
+  onDelete,
+  onRegister,
+  registeringId,
 }: CourseListProps) {
-  if (state === 'loading') {
-    return <p>Dang tai danh sach mon hoc...</p>;
-  }
+  if (state === 'loading') return <p>Dang tai danh sach mon hoc...</p>;
 
   if (state === 'error') {
     return (
@@ -30,11 +36,10 @@ export default function CourseList({
     );
   }
 
-  if (state === 'empty') {
-    return <p>Khong tim thay mon hoc nao phu hop.</p>;
-  }
+  if (state === 'empty') return <p>Khong tim thay mon hoc nao phu hop.</p>;
 
-  // state === 'success'
+  const showActions = !!onEdit || !!onDelete || !!onRegister;
+
   return (
     <table style={{ width: '100%', borderCollapse: 'collapse' }}>
       <thead>
@@ -42,6 +47,7 @@ export default function CourseList({
           <th>Ten mon hoc</th>
           <th>So tin chi</th>
           <th>So cho con lai</th>
+          {showActions && <th>Thao tac</th>}
         </tr>
       </thead>
       <tbody>
@@ -56,6 +62,33 @@ export default function CourseList({
             >
               {course.soChoConLai} / {course.soChoToiDa}
             </td>
+            {showActions && (
+              <td>
+                {onEdit && <button onClick={() => onEdit(course)}>Sua</button>}
+                {onDelete && (
+                  <button
+                    onClick={() => onDelete(course)}
+                    style={{ marginLeft: 8, color: '#b91c1c' }}
+                  >
+                    Xoa
+                  </button>
+                )}
+                {onRegister && (
+                  <button
+                    onClick={() => onRegister(course)}
+                    disabled={
+                      course.soChoConLai === 0 || registeringId === course.id
+                    }
+                  >
+                    {registeringId === course.id
+                      ? 'Dang dang ky...'
+                      : course.soChoConLai === 0
+                      ? 'Het cho'
+                      : 'Dang ky'}
+                  </button>
+                )}
+              </td>
+            )}
           </tr>
         ))}
       </tbody>

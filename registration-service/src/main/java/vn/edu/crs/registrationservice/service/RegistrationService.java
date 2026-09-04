@@ -8,6 +8,7 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
 import java.time.LocalDateTime;
+import java.util.List;
 import java.util.NoSuchElementException;
 
 @Service
@@ -19,6 +20,10 @@ public class RegistrationService {
 
     private final RegistrationRepository registrationRepository;
     private final CourseClient courseClient;
+
+    public List<Registration> getMyRegistrations(Long studentId) {
+        return registrationRepository.findByStudentId(studentId);
+    }
 
     public Registration register(RegistrationRequestDTO dto) {
         if (registrationRepository.existsByStudentIdAndCourseIdAndTrangThai(

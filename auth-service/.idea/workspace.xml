@@ -5,16 +5,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="598d4ae4-fc0f-4614-a3dc-bb2c2fc561d7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../api-gateway/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../api-gateway/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../api-gateway/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../course-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../course-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../course-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../course-service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../crs-frontend/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../registration-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../registration-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-gateway/src/main/java/vn/edu/crs/apigateway/filter/ApiKeyFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../api-gateway/src/main/java/vn/edu/crs/apigateway/filter/ApiKeyFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../api-gateway/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-gateway/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../api-gateway/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-gateway/target/classes/vn/edu/crs/apigateway/filter/ApiKeyFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/../api-gateway/target/classes/vn/edu/crs/apigateway/filter/ApiKeyFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-gateway/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../api-gateway/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-gateway/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../api-gateway/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/crs/authservice/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vn/edu/crs/authservice/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/crs/authservice/dto/LoginResponseDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vn/edu/crs/authservice/dto/LoginResponseDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/crs/authservice/security/JwtUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vn/edu/crs/authservice/security/JwtUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/crs/authservice/service/AuthService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vn/edu/crs/authservice/service/AuthService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/vn/edu/crs/authservice/config/SecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/vn/edu/crs/authservice/config/SecurityConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/vn/edu/crs/authservice/dto/LoginResponseDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/vn/edu/crs/authservice/dto/LoginResponseDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/vn/edu/crs/authservice/security/JwtUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/vn/edu/crs/authservice/security/JwtUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/vn/edu/crs/authservice/service/AuthService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/vn/edu/crs/authservice/service/AuthService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-service/src/main/java/vn/edu/crs/courseservice/security/JwtAuthFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../course-service/src/main/java/vn/edu/crs/courseservice/security/JwtAuthFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crs-frontend/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../crs-frontend/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crs-frontend/src/api/axiosClient.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../crs-frontend/src/api/axiosClient.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crs-frontend/src/api/courseApi.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../crs-frontend/src/api/courseApi.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crs-frontend/src/components/CourseList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../crs-frontend/src/components/CourseList.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crs-frontend/src/types/auth.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../crs-frontend/src/types/auth.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crs-frontend/src/types/course.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../crs-frontend/src/types/course.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../registration-service/src/main/java/vn/edu/crs/registrationservice/controller/RegistrationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../registration-service/src/main/java/vn/edu/crs/registrationservice/controller/RegistrationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../registration-service/src/main/java/vn/edu/crs/registrationservice/security/JwtAuthFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../registration-service/src/main/java/vn/edu/crs/registrationservice/security/JwtAuthFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../registration-service/src/main/java/vn/edu/crs/registrationservice/service/RegistrationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../registration-service/src/main/java/vn/edu/crs/registrationservice/service/RegistrationService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../registration-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../registration-service/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,25 +69,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "Spring Boot.AuthServiceApplication.executor": "Run",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/test/crs-microservices/auth-service",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;Spring Boot.AuthServiceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/test/crs-microservices/auth-service&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
